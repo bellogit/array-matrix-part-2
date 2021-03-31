@@ -53,3 +53,6 @@ for(val in tmp_vec) {
 ## Create a 3x3 matrix containing the values 1:9.
 matrix(1:9, nrow=3, ncol=3)
 mat = .Last.value
+
+## Create two loops (one by row, one by column)
+## to replace each value of the matrix with itself.
