@@ -9,9 +9,16 @@ simpsons <- data.frame(name, hair)
 
 ## Extract the variable "hair" from the simpsons data.frame.
 data.frame(simpsons$hair)
+#   simpsons.hair
+# 1          blue
+# 2        yellow
+# 3        yellow
 
 ## Select all rows yellow-haired simpsons.
 data.frame(simpsons$hair[2:3])
+#  simpsons.hair.2.3.
+# 1             yellow
+# 2             yellow
 
 ## Add a third column "parent" to the data.frame that contains the values TRUE/FALSE.
 simpsons$parent <- c(TRUE/FALSE)
