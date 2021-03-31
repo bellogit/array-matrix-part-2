@@ -17,9 +17,9 @@ data.frame(simpsons$hair[2:3])
 simpsons$parent <- c(TRUE/FALSE)
 
 # Set the variable to TRUE for "marge" and FALSE for all other rows.
-simpsons$parent[1:3] = TRUE
-simpsons$parent[2:3] = FALSE
-simpsons$parent[3:3] = FALSE
+simpsons$name[1:1] = TRUE
+simpsons[2:3,] = FALSE
+simpsons[, 2:3] = FALSE
 
 ## Define the values of the "parent" variable that are equal to FALSE as missing (NA).
 simpsons$parent[2:3] <- NA
